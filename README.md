@@ -17,11 +17,10 @@ Model byl trénován na datové sadě **GTSRB (German Traffic Sign Recognition B
 
 Vzhledem k velikosti datasetu nejsou zdrojová data součástí tohoto repozitáře. Model byl specificky natrénován na klasifikaci následujících **7 typů dopravních značek**:
 
-| :--- | :--- |
-| `(1, 0, 0, 0, 0, 0, 0)` | **Main road** |
-| `(0, 1, 0, 0, 0, 0, 0)` | **Give way** |
-| `(0, 0, 1, 0, 0, 0, 0)` | **Stop** |
-| `(0, 0, 0, 1, 0, 0, 0)` | **Traffic is prohibited** |
-| `(0, 0, 0, 0, 1, 0, 0)` | **Entry is forbidden** |
-| `(0, 0, 0, 0, 0, 1, 0)` | **Rough road** |
-| `(0, 0, 0, 0, 0, 0, 1)` | **Road work** |
+* `(1, 0, 0, 0, 0, 0, 0)` — **Main road**
+* `(0, 1, 0, 0, 0, 0, 0)` — **Give way**
+* `(0, 0, 1, 0, 0, 0, 0)` — **Stop**
+* `(0, 0, 0, 1, 0, 0, 0)` — **Traffic is prohibited**
+* `(0, 0, 0, 0, 1, 0, 0)` — **Entry is forbidden**
+* `(0, 0, 0, 0, 0, 1, 0)` — **Rough road**
+* `(0, 0, 0, 0, 0, 0, 1)` — **Road work**
